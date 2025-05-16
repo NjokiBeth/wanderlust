@@ -1,6 +1,7 @@
 # Modern Blog Website
 
 A responsive and modern blog website built with HTML5, CSS3, and JavaScript.
+Visit the Wanderlust Blog Page at https://wanderlust-g5x19s58p-beth-njokis-projects.vercel.app/
 
 ## Features
 
