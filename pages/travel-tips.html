@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Tips - Wanderlust</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Wanderlust</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="travel-tips.html" class="active">Travel Tips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="travel-tips-hero">
+            <div class="hero-content">
+                <h2>Essential <span class="highlight">Travel Tips</span></h2>
+                <p>Expert advice to make your travels smoother, safer, and more enjoyable</p>
+            </div>
+        </section>
+
+        <section class="travel-tips-categories">
+            <div class="categories-container">
+                <button class="category-btn active" data-category="all">All Tips</button>
+                <button class="category-btn" data-category="packing">Packing</button>
+                <button class="category-btn" data-category="safety">Safety</button>
+                <button class="category-btn" data-category="budget">Budget</button>
+                <button class="category-btn" data-category="photography">Photography</button>
+                <button class="category-btn" data-category="accommodation">Accommodation</button>
+            </div>
+        </section>
+
+        <section class="travel-tips-container">
+            <div class="travel-tips-content">
+                <div class="travel-tips-intro">
+                    <p>Whether you're planning your first international trip or looking to improve your travel experience, these essential travel tips will help you navigate the world with confidence and ease.</p>
+                </div>
+
+                <!-- Packing Tips -->
+                <div class="tip-section" data-category="packing">
+                    <h3><i class="fas fa-suitcase"></i> Packing Tips</h3>
+
+                    <div class="tip-item">
+                        <h4>Pack Light, Travel Right</h4>
+                        <p>The art of minimalist packing makes your travels more comfortable and stress-free. Here's how to do it:</p>
+                        <ul>
+                            <li>Roll clothes instead of folding to save space and reduce wrinkles</li>
+                            <li>Use packing cubes to organize your belongings and compress clothing</li>
+                            <li>Pack versatile clothing items that can be mixed and matched</li>
+                            <li>Limit yourself to no more than a week's worth of clothing and plan to do laundry</li>
+                            <li>Wear your bulkiest items (like jackets and boots) during transit</li>
+                        </ul>
+                    </div>
+
+                    <div class="tip-item">
+                        <h4>10 Essential Items Every Traveler Needs</h4>
+                        <p>Don't leave home without these travel essentials that will make your journey smoother:</p>
+                        <ul>
+                            <li>Universal travel adapter with USB ports</li>
+                            <li>Portable power bank for charging devices on the go</li>
+                            <li>Microfiber travel towel that dries quickly and packs small</li>
+                            <li>Reusable water bottle with a filter</li>
+                            <li>First-aid kit with basic medications and supplies</li>
+                            <li>Photocopy of passport and important documents</li>
+                            <li>Travel-sized toiletries in reusable containers</li>
+                            <li>Comfortable walking shoes</li>
+                            <li>Eye mask and earplugs for better sleep</li>
+                            <li>Packable day bag for excursions</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Safety Tips -->
+                <div class="tip-section" data-category="safety">
+                    <h3><i class="fas fa-shield-alt"></i> Safety Tips</h3>
+
+                    <div class="tip-item">
+                        <h4>Stay Safe While Traveling Solo</h4>
+                        <p>Essential safety tips for solo travelers to ensure a secure and enjoyable journey:</p>
+                        <ul>
+                            <li>Share your itinerary with someone you trust and check in regularly</li>
+                            <li>Keep digital copies of important documents in secure cloud storage</li>
+                            <li>Research common local scams before you arrive at your destination</li>
+                            <li>Trust your instincts and remove yourself from uncomfortable situations</li>
+                            <li>Use a money belt or hidden pouch for valuables</li>
+                            <li>Avoid displaying expensive items like jewelry or electronics</li>
+                            <li>Stay in well-reviewed accommodations in safe neighborhoods</li>
+                            <li>Learn a few key phrases in the local language</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Budget Tips -->
+                <div class="tip-section" data-category="budget">
+                    <h3><i class="fas fa-coins"></i> Budget Tips</h3>
+
+                    <div class="tip-item">
+                        <h4>Travel on a Shoestring Budget</h4>
+                        <p>Discover how to explore the world without breaking the bank with these money-saving tips:</p>
+                        <ul>
+                            <li>Travel during shoulder season (just before or after peak season) for lower prices</li>
+                            <li>Use flight price comparison tools and set fare alerts</li>
+                            <li>Stay in hostels, guesthouses, or use home-sharing services</li>
+                            <li>Cook some of your own meals instead of eating out for every meal</li>
+                            <li>Use public transportation instead of taxis or rental cars</li>
+                            <li>Look for free activities and attractions at your destination</li>
+                            <li>Get a travel credit card with no foreign transaction fees</li>
+                            <li>Consider volunteering or work exchange programs for longer stays</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Photography Tips -->
+                <div class="tip-section" data-category="photography">
+                    <h3><i class="fas fa-camera"></i> Photography Tips</h3>
+
+                    <div class="tip-item">
+                        <h4>Capture Stunning Travel Photos</h4>
+                        <p>Tips and techniques to improve your travel photography and capture memorable moments:</p>
+                        <ul>
+                            <li>Shoot during golden hour (the hour after sunrise or before sunset) for the best light</li>
+                            <li>Include people in your photos to add scale and tell a story</li>
+                            <li>Learn basic composition techniques like the rule of thirds</li>
+                            <li>Wake up early to capture popular sites without crowds</li>
+                            <li>Respect local customs and always ask permission before photographing people</li>
+                            <li>Bring extra memory cards and batteries</li>
+                            <li>Back up your photos regularly to cloud storage or an external drive</li>
+                            <li>Don't just photograph the famous landmarks—capture daily life and details</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Accommodation Tips -->
+                <div class="tip-section" data-category="accommodation">
+                    <h3><i class="fas fa-bed"></i> Accommodation Tips</h3>
+
+                    <div class="tip-item">
+                        <h4>Finding the Perfect Place to Stay</h4>
+                        <p>How to choose the right accommodation for your travel style and budget:</p>
+                        <ul>
+                            <li>Read recent reviews carefully, focusing on comments about cleanliness and safety</li>
+                            <li>Consider location and proximity to public transportation</li>
+                            <li>Book directly with hotels for better rates or room upgrades</li>
+                            <li>Look beyond hotels—consider apartments, guesthouses, or homestays</li>
+                            <li>Check cancellation policies before booking</li>
+                            <li>Join hotel loyalty programs for perks and discounts</li>
+                            <li>Email the property directly with special requests</li>
+                            <li>Use map views when booking to understand the neighborhood</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="travel-tips-sidebar">
+                <div class="sidebar-widget">
+                    <h3>Quick Navigation</h3>
+                    <ul class="sidebar-nav">
+                        <li><a href="#" data-category="packing"><i class="fas fa-suitcase"></i> Packing Tips</a></li>
+                        <li><a href="#" data-category="safety"><i class="fas fa-shield-alt"></i> Safety Tips</a></li>
+                        <li><a href="#" data-category="budget"><i class="fas fa-coins"></i> Budget Tips</a></li>
+                        <li><a href="#" data-category="photography"><i class="fas fa-camera"></i> Photography Tips</a></li>
+                        <li><a href="#" data-category="accommodation"><i class="fas fa-bed"></i> Accommodation Tips</a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3>Travel Resources</h3>
+                    <ul class="resource-links">
+                        <li><a href="#"><i class="fas fa-globe"></i> Currency Converter</a></li>
+                        <li><a href="#"><i class="fas fa-language"></i> Language Translator</a></li>
+                        <li><a href="#"><i class="fas fa-plane"></i> Flight Tracker</a></li>
+                        <li><a href="#"><i class="fas fa-map-marked-alt"></i> Travel Maps</a></li>
+                        <li><a href="#"><i class="fas fa-cloud-sun"></i> Weather Forecasts</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>Wanderlust</h3>
+                    <p>Your guide to exploring the world's most beautiful destinations.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="destinations.html">Destinations</a></li>
+                        <li><a href="travel-tips.html">Travel Tips</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section newsletter-section">
+                    <h3>Subscribe to our newsletter</h3>
+                    <p>Subscribe to our newsletter for travel tips and destination guides</p>
+                    <form id="newsletter-form" class="footer-newsletter-form">
+                        <div class="form-group">
+                            <input type="email" id="newsletter-email" placeholder="Enter your email" required>
+                            <span class="error-message"></span>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span>Subscribe</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Wanderlust Travel Blog. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>

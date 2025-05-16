@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust - Destinations</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Wanderlust</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="destinations.html" class="active">Destinations</a></li>
+                <li><a href="travel-tips.html">Travel Tips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="destinations-header">
+            <div class="header-content">
+                <div class="left-content">
+                    <h1 class="main-heading">You will love</h1>
+                    <div class="continent-text">
+                        <span class="active">Africa</span>
+                        <span>Asia</span>
+                        <span>Europe</span>
+                        <span>Americas</span>
+                        <span>Oceania</span>
+                    </div>
+                </div>
+                <div class="right-content">
+                    <p>Explore our carefully curated recommendations for each continent. Discover hidden gems and must-visit destinations that will make your travel experience unforgettable.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="destinations-filter">
+            <div class="filter-container">
+                <button class="filter-btn active" data-filter="all">All Destinations</button>
+                <button class="filter-btn" data-filter="asia">Asia</button>
+                <button class="filter-btn" data-filter="europe">Europe</button>
+                <button class="filter-btn" data-filter="americas">Americas</button>
+                <button class="filter-btn" data-filter="africa">Africa</button>
+                <button class="filter-btn" data-filter="oceania">Oceania</button>
+            </div>
+        </section>
+
+        <section class="destinations-grid">
+            <!-- Asia -->
+            <article class="destination-card" data-category="asia" id="bali">
+                <div class="destination-image">
+                    <img src="../assets/images/bali.jpg" alt="Bali, Indonesia">
+                    <div class="destination-overlay">
+                        <span class="destination-category">Asia</span>
+                    </div>
+                </div>
+                <div class="destination-content">
+                    <h3>Bali, Indonesia</h3>
+                    <p>Known as the Island of the Gods, Bali offers stunning beaches, lush landscapes, and rich cultural heritage.</p>
+                    <div class="destination-details">
+                        <span><i class="fas fa-calendar"></i> Best Time: April-October</span>
+                        <span><i class="fas fa-temperature-high"></i> Climate: Tropical</span>
+                    </div>
+                    <button class="read-more-btn" data-destination="bali">
+                        <span>Read More</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </article>
+
+            <article class="destination-card" data-category="asia" id="kyoto">
+                <div class="destination-image">
+                    <img src="../assets/images/kyoto.jpg" alt="Kyoto, Japan">
+                    <div class="destination-overlay">
+                        <span class="destination-category">Asia</span>
+                    </div>
+                </div>
+                <div class="destination-content">
+                    <h3>Kyoto, Japan</h3>
+                    <p>Japan's cultural heart, featuring ancient temples, traditional gardens, and the famous geisha district.</p>
+                    <div class="destination-details">
+                        <span><i class="fas fa-calendar"></i> Best Time: March-May, October-November</span>
+                        <span><i class="fas fa-temperature-high"></i> Climate: Temperate</span>
+                    </div>
+                    <button class="read-more-btn" data-destination="kyoto">
+                        <span>Read More</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </article>
+
+            <!-- Europe -->
+            <article class="destination-card" data-category="europe" id="santorini">
+                <div class="destination-image">
+                    <img src="../assets/images/santorini.jpg" alt="Santorini, Greece">
+                    <div class="destination-overlay">
+                        <span class="destination-category">Europe</span>
+                    </div>
+                </div>
+                <div class="destination-content">
+                    <h3>Santorini, Greece</h3>
+                    <p>Famous for its white-washed buildings, blue domes, and stunning sunsets over the Aegean Sea.</p>
+                    <div class="destination-details">
+                        <span><i class="fas fa-calendar"></i> Best Time: May-October</span>
+                        <span><i class="fas fa-temperature-high"></i> Climate: Mediterranean</span>
+                    </div>
+                    <button class="read-more-btn" data-destination="santorini">
+                        <span>Read More</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </article>
+
+            <!-- Africa -->
+            <article class="destination-card" data-category="africa" id="maasai-mara">
+                <div class="destination-image">
+                    <img src="../assets/images/maasaimara.jpg" alt="Maasai Mara, Kenya">
+                    <div class="destination-overlay">
+                        <span class="destination-category">Africa</span>
+                    </div>
+                </div>
+                <div class="destination-content">
+                    <h3>Maasai Mara, Kenya</h3>
+                    <p>Experience the world's greatest wildlife spectacle with the annual wildebeest migration and incredible safari adventures.</p>
+                    <div class="destination-details">
+                        <span><i class="fas fa-calendar"></i> Best Time: July-October</span>
+                        <span><i class="fas fa-temperature-high"></i> Climate: Savanna</span>
+                    </div>
+                    <button class="read-more-btn" data-destination="maasai-mara">
+                        <span>Read More</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </article>
+
+            <article class="destination-card" data-category="africa" id="diani-beach">
+                <div class="destination-image">
+                    <img src="../assets/images/diani.jpg" alt="Diani Beach, Kenya">
+                    <div class="destination-overlay">
+                        <span class="destination-category">Africa</span>
+                    </div>
+                </div>
+                <div class="destination-content">
+                    <h3>Diani Beach, Kenya</h3>
+                    <p>Pristine white sand beaches, crystal clear waters, and vibrant coral reefs make this a perfect tropical paradise.</p>
+                    <div class="destination-details">
+                        <span><i class="fas fa-calendar"></i> Best Time: January-March, June-October</span>
+                        <span><i class="fas fa-temperature-high"></i> Climate: Tropical</span>
+                    </div>
+                    <button class="read-more-btn" data-destination="diani-beach">
+                        <span>Read More</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </article>
+
+            <article class="destination-card" data-category="africa" id="capetown">
+                <div class="destination-image">
+                    <img src="../assets/images/capetown.jpg" alt="Cape Town, South Africa">
+                    <div class="destination-overlay">
+                        <span class="destination-category">Africa</span>
+                    </div>
+                </div>
+                <div class="destination-content">
+                    <h3>Cape Town, South Africa</h3>
+                    <p>A vibrant city nestled between the iconic Table Mountain and the Atlantic Ocean, offering diverse experiences.</p>
+                    <div class="destination-details">
+                        <span><i class="fas fa-calendar"></i> Best Time: March-May, September-November</span>
+                        <span><i class="fas fa-temperature-high"></i> Climate: Mediterranean</span>
+                    </div>
+                    <button class="read-more-btn" data-destination="capetown">
+                        <span>Read More</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </article>
+
+            <article class="destination-card" data-category="africa" id="egypt">
+                <div class="destination-image">
+                    <img src="../assets/images/egypt.jpg" alt="Egypt">
+                    <div class="destination-overlay">
+                        <span class="destination-category">Africa</span>
+                    </div>
+                </div>
+                <div class="destination-content">
+                    <h3>Egypt</h3>
+                    <p>Discover ancient wonders, from the Pyramids of Giza to the Nile River, and immerse yourself in rich history.</p>
+                    <div class="destination-details">
+                        <span><i class="fas fa-calendar"></i> Best Time: October-April</span>
+                        <span><i class="fas fa-temperature-high"></i> Climate: Desert</span>
+                    </div>
+                    <button class="read-more-btn" data-destination="egypt">
+                        <span>Read More</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </article>
+
+            <!-- Oceania -->
+            <article class="destination-card" data-category="oceania" id="sydney">
+                <div class="destination-image">
+                    <img src="../assets/images/sydney.jpg" alt="Sydney, Australia">
+                    <div class="destination-overlay">
+                        <span class="destination-category">Oceania</span>
+                    </div>
+                </div>
+                <div class="destination-content">
+                    <h3>Sydney, Australia</h3>
+                    <p>A vibrant city known for its iconic Opera House, beautiful beaches, and stunning harbor views.</p>
+                    <div class="destination-details">
+                        <span><i class="fas fa-calendar"></i> Best Time: September-November, March-May</span>
+                        <span><i class="fas fa-temperature-high"></i> Climate: Temperate</span>
+                    </div>
+                    <button class="read-more-btn" data-destination="sydney">
+                        <span>Read More</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </article>
+
+            <article class="destination-card" data-category="oceania" id="queenstown">
+                <div class="destination-image">
+                    <img src="../assets/images/queenstown.jpg" alt="Queenstown, New Zealand">
+                    <div class="destination-overlay">
+                        <span class="destination-category">Oceania</span>
+                    </div>
+                </div>
+                <div class="destination-content">
+                    <h3>Queenstown, New Zealand</h3>
+                    <p>Adventure capital of the world, surrounded by stunning landscapes and offering thrilling activities.</p>
+                    <div class="destination-details">
+                        <span><i class="fas fa-calendar"></i> Best Time: December-February</span>
+                        <span><i class="fas fa-temperature-high"></i> Climate: Alpine</span>
+                    </div>
+                    <button class="read-more-btn" data-destination="queenstown">
+                        <span>Read More</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </article>
+
+            <!-- Americas -->
+            <article class="destination-card" data-category="americas" id="rio">
+                <div class="destination-image">
+                    <img src="../assets/images/riodejeneiro.jpg" alt="Rio de Janeiro, Brazil">
+                    <div class="destination-overlay">
+                        <span class="destination-category">Americas</span>
+                    </div>
+                </div>
+                <div class="destination-content">
+                    <h3>Rio de Janeiro, Brazil</h3>
+                    <p>Famous for its Carnival, Christ the Redeemer statue, and beautiful beaches like Copacabana and Ipanema.</p>
+                    <div class="destination-details">
+                        <span><i class="fas fa-calendar"></i> Best Time: December-March</span>
+                        <span><i class="fas fa-temperature-high"></i> Climate: Tropical</span>
+                    </div>
+                    <button class="read-more-btn" data-destination="rio">
+                        <span>Read More</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </article>
+
+            <article class="destination-card" data-category="americas" id="machu-picchu">
+                <div class="destination-image">
+                    <img src="../assets/images/mchupichu.jpg" alt="Machu Picchu, Peru">
+                    <div class="destination-overlay">
+                        <span class="destination-category">Americas</span>
+                    </div>
+                </div>
+                <div class="destination-content">
+                    <h3>Machu Picchu, Peru</h3>
+                    <p>Ancient Incan citadel set high in the Andes Mountains, offering breathtaking views and rich history.</p>
+                    <div class="destination-details">
+                        <span><i class="fas fa-calendar"></i> Best Time: May-September</span>
+                        <span><i class="fas fa-temperature-high"></i> Climate: Mountain</span>
+                    </div>
+                    <button class="read-more-btn" data-destination="machu-picchu">
+                        <span>Read More</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </article>
+        </section>
+
+        <!-- Destination Modal -->
+        <div class="destination-modal" id="destinationModal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <div class="modal-body">
+                    <!-- Content will be loaded dynamically -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>Wanderlust</h3>
+                    <p>Your guide to exploring the world's most beautiful destinations.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="destinations.html">Destinations</a></li>
+                        <li><a href="travel-tips.html">Travel Tips</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Wanderlust Travel Blog. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>

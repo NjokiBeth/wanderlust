@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Wanderlust</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Wanderlust</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="travel-tips.html">Travel Tips</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-hero">
+            <div class="hero-overlay">
+                <h2>Get In Touch</h2>
+                <p>We'd love to hear from you! Reach out for travel advice, collaborations, or just to say hello.</p>
+            </div>
+        </section>
+
+        <section class="contact-content">
+            <div class="contact-grid">
+                <div class="contact-info-container">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <p class="contact-intro">Feel free to reach out using any of the methods below. We're always excited to connect with fellow travelers!</p>
+
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>bethnjoroge@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+254 726624770</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Nairobi Citi Square mall, Nairobi, Kenya</p>
+                            </div>
+                        </div>
+
+                        <div class="social-links-container">
+                            <h4>Follow Us</h4>
+                            <div class="social-links">
+                                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8177756776705!2d36.8214833!3d-1.2864969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d8eeeaf0d9%3A0x85e78b7d9f214d15!2sCiti%20Square%20Mall!5e0!3m2!1sen!2ske!4v1652967854321!5m2!1sen!2ske"
+                                width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <h3>Send Us a Message</h3>
+                    <p class="form-intro">Have a question or want to collaborate? Fill out the form below and we'll get back to you as soon as possible.</p>
+
+                    <form id="contact-form" class="enhanced-form" action="https://formspree.io/f/xwpoylze" method="POST">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                            <span class="error-message"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="_replyto" placeholder="Enter your email" required>
+                            <span class="error-message"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="What is this regarding?" required>
+                            <span class="error-message"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+                            <span class="error-message"></span>
+                        </div>
+
+                        <!-- Honeypot field to prevent spam -->
+                        <input type="text" name="_gotcha" style="display:none">
+
+                        <!-- Redirect after submission -->
+                        <input type="hidden" name="_next" value="thank-you.html">
+
+                        <button type="submit" class="submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-cta">
+            <div class="cta-container">
+                <h3>Ready for Your Next Adventure?</h3>
+                <p>Subscribe to our newsletter for travel tips, destination guides, and exclusive offers.</p>
+                <a href="#" class="cta-button">Subscribe Now</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>Wanderlust</h3>
+                    <p>Your guide to exploring the world's most beautiful destinations.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="destinations.html">Destinations</a></li>
+                        <li><a href="travel-tips.html">Travel Tips</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section newsletter-section">
+                    <h3>Subscribe to our newsletter</h3>
+                    <p>Subscribe to our newsletter for travel tips and destination guides</p>
+                    <form id="newsletter-form" class="footer-newsletter-form">
+                        <div class="form-group">
+                            <input type="email" id="newsletter-email" placeholder="Enter your email" required>
+                            <span class="error-message"></span>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span>Subscribe</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Wanderlust Travel Blog. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>

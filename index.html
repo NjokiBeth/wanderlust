@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust - Travel Blog</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Wanderlust</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="pages/destinations.html">Destinations</a></li>
+                <li><a href="pages/travel-tips.html">Travel Tips</a></li>
+                <li><a href="pages/contact.html">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="carousel-container">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="carousel-background" style="background-image: url('assets/images/bali.jpg')"></div>
+                        <div class="carousel-caption">
+                            <div class="caption-content">
+                                <span class="subheading">Welcome to Wanderlust</span>
+                                <h1>Discover Paradise in Bali</h1>
+                                <p>Explore the Island of the Gods with its stunning beaches, lush landscapes, and vibrant culture</p>
+                                <p><a href="pages/destinations.html#bali" class="btn btn-primary">Explore Bali</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-background" style="background-image: url('assets/images/santorini.jpg')"></div>
+                        <div class="carousel-caption">
+                            <div class="caption-content">
+                                <span class="subheading">Mediterranean Beauty</span>
+                                <h1>Experience Santorini</h1>
+                                <p>Immerse yourself in the breathtaking views and iconic white-washed buildings of Greece's most famous island</p>
+                                <p><a href="pages/destinations.html#santorini" class="btn btn-primary">Visit Santorini</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-background" style="background-image: url('assets/images/kyoto.jpg')"></div>
+                        <div class="carousel-caption">
+                            <div class="caption-content">
+                                <span class="subheading">Ancient Traditions</span>
+                                <h1>Explore Kyoto's Temples</h1>
+                                <p>Step back in time and discover Japan's cultural heart with its historic temples and beautiful gardens</p>
+                                <p><a href="pages/destinations.html#kyoto" class="btn btn-primary">Discover Kyoto</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-background" style="background-image: url('assets/images/maasaimara.jpg')"></div>
+                        <div class="carousel-caption">
+                            <div class="caption-content">
+                                <span class="subheading">Wildlife Adventure</span>
+                                <h1>Safari in Maasai Mara</h1>
+                                <p>Witness the incredible wildlife and stunning landscapes of Kenya's most famous national reserve</p>
+                                <p><a href="pages/destinations.html#maasai-mara" class="btn btn-primary">Go on Safari</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-background" style="background-image: url('assets/images/capetown.jpg')"></div>
+                        <div class="carousel-caption">
+                            <div class="caption-content">
+                                <span class="subheading">Urban Adventure</span>
+                                <h1>Discover Cape Town</h1>
+                                <p>Experience the vibrant culture and stunning natural beauty of South Africa's most iconic city</p>
+                                <p><a href="pages/destinations.html#capetown" class="btn btn-primary">Explore Cape Town</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" role="button">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next" role="button">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+
+                <ol class="carousel-indicators">
+                    <li class="active" data-slide-to="0"></li>
+                    <li data-slide-to="1"></li>
+                    <li data-slide-to="2"></li>
+                    <li data-slide-to="3"></li>
+                    <li data-slide-to="4"></li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="latest-posts">
+            <h2>Latest Travel Stories</h2>
+            <div class="posts-grid">
+                <!-- Posts will be loaded dynamically -->
+            </div>
+        </section>
+
+        <section class="about-us">
+            <div class="about-container">
+                <div class="about-content">
+                    <h2>About Wanderlust</h2>
+                    <p>Welcome to Wanderlust, your trusted companion in exploring the world's most breathtaking destinations. We are a team of passionate travelers, photographers, and storytellers dedicated to inspiring your next adventure.</p>
+
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <h3>Authentic Travel Guides</h3>
+                            <p>Our detailed destination guides are crafted from firsthand experiences, offering you genuine insights beyond the typical tourist spots.</p>
+                        </div>
+
+                        <div class="feature">
+                            <i class="fas fa-lightbulb"></i>
+                            <h3>Expert Travel Tips</h3>
+                            <p>From packing essentials to safety advice, our travel tips help you navigate the world with confidence and ease.</p>
+                        </div>
+
+                        <div class="feature">
+                            <i class="fas fa-camera"></i>
+                            <h3>Stunning Photography</h3>
+                            <p>We capture the essence of each destination through our lens, bringing you inspiring visuals that fuel your wanderlust.</p>
+                        </div>
+                    </div>
+
+                    <p class="about-mission">Our mission is to make travel accessible, sustainable, and enriching for everyone. Whether you're a seasoned globetrotter or planning your first international trip, Wanderlust is here to guide you every step of the way.</p>
+
+                    <a href="pages/contact.html" class="cta-button">Get in Touch</a>
+                </div>
+                <div class="about-image">
+                    <img src="assets/images/kyoto.jpg" alt="Travel photography">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>Wanderlust</h3>
+                    <p>Your guide to exploring the world's most beautiful destinations.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="pages/destinations.html">Destinations</a></li>
+                        <li><a href="pages/travel-tips.html">Travel Tips</a></li>
+                        <li><a href="pages/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section newsletter-section">
+                    <h3>Subscribe to our newsletter</h3>
+                    <p>Subscribe to our newsletter for travel tips and destination guides</p>
+                    <form id="newsletter-form" class="footer-newsletter-form">
+                        <div class="form-group">
+                            <input type="email" id="newsletter-email" placeholder="Enter your email" required>
+                            <span class="error-message"></span>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span>Subscribe</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Wanderlust Travel Blog. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
